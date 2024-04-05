@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom,rgba(75,108,193,.1) 0vh,rgb(255,255,255) 100vh);
+  font-family: "Roboto";
+}
+@media(max-width: 996px){
+  body{
+    background: rgba(75,108,193,.1);
+  }
+}
