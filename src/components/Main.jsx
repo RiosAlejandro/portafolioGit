@@ -1,5 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable react/prop-types */
 import { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
@@ -29,12 +27,12 @@ const Main = ({dataFilter}) => {
             <Box sx={{ width: 500, height: 450, overflowY: 'auto' }}>
               <ImageList variant="masonry" cols={3} gap={8}>
                 {p.img.map((item, index) => (
-                  <ImageListItem key={item.img}>
+                  <ImageListItem key={item}>
                     <img
                       key={index}
-                      srcSet={`/proyect/${item}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                      src={`/proyect/${item}?w=248&fit=crop&auto=format`}
-                      alt={item.title}
+                      srcSet={`/portafolioGit/proyect/${item}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                      src={`/portafolioGit/proyect/${item}?w=248&fit=crop&auto=format`}
+                      alt={item}
                       loading="lazy"
                     />
                   </ImageListItem>

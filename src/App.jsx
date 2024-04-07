@@ -11,7 +11,7 @@ function App() {
       <header className='header'>
         <div className='photoHeader'></div>
         <div className='menuHeader'>
-            <NavLink className="headerTitle" to="/portafolio">Alejandro Rios</NavLink>
+            <NavLink className="headerTitle" to="/">Alejandro Rios</NavLink>
             <nav className="navHeader">
               <NavLink className="navHeaderTo" to="/movil">Movil</NavLink>
               <NavLink className="navHeaderTo" to="/frontend">Frontend</NavLink>

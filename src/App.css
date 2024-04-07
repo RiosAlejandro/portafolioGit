@@ -37,8 +37,7 @@
   width: 150px;
   height: 150px;
   border-radius: 9999px;
-  background-image: url(./18.jpeg);
-  /*background-position: center center;*/
+  background-image: url(18.jpeg);
   background-attachment: unset;
   background-size: cover;
 }
